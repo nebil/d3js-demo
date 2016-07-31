@@ -16,6 +16,14 @@ Es recomendable que los participantes de este _demo_ lleven sus computadores
 con un _full-featured_ editor de texto —como [Atom]— y un navegador moderno.  
 De preferencia, la última versión de Mozilla [Firefox] o de Google [Chrome].
 
+## Contenido
+
+Nombre        | Descripción
+------------- | --------------------------
+`README.md`   | `this`.
+`index.html`  | Documento base del _demo_.
+`style.css`   | Hoja de estilos principal.
+
 [/]:# (Referencias implícitas)
 
 [d3.js]:   https://d3js.org
