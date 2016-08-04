@@ -1,24 +1,42 @@
-console.log("Hello, world!");
-console.log(d3.version);
 
-function addOne(datum) {
-    console.log(datum + 1);
+// Primero, probaremos si es que el código está siendo ejecutado.
+// Para conseguir esto, veamos si es que se imprime lo siguiente.
+
+console.log("Hello, world!");  // Comencemos con un clásico mensaje.
+console.log(d3.version);       // Luego, la versión de D3 utilizada.
+
+// Definamos una función.
+function addOne(datum) {       // Ella recibe un número (i.e. 'datum')
+    console.log(datum + 1);    // para imprimir su sucesor en consola.
 }
 
-addOne(2);
-addOne(41);
+addOne(2);                     // Debería imprimir 3.
+addOne(41);                    // Debería imprimir 42.
 
+
+// ============ =========
+// Programación funcional
+// ============ =========
+
+// Definamos nuestro _dataset_ a partir de algunos pocos pokémones.
 var pokedex = ["Bulbasaur", "Ivysaur", "Venasaur", "Charmander", "Charmeleon",
                "Charizard", "Squirtle", "Wartortle", "Blastoise", "Caterpie"];
 console.log(pokedex);
 
-pokedex.forEach(function(name) {
-    console.log(name);
-});
+// El método 'forEach' toma cada elemento definido en el arreglo
+// para, entonces, aplicarle la función entregada como argumento.
 
-pokedex.forEach(function(name, index) {
-    console.log(index, "-", name);
-});
+pokedex.forEach(function(name) {  // En este caso, definimos una función
+    console.log(name);            // anónima (porque... no tiene nombre)
+});                               // para imprimir cada elemento.
 
+pokedex.forEach(function(name, index) {  // Asimismo, puede recibir como
+    console.log(index, "-", name);       // segundo argumento, el índice
+});                                      // de cada elemento.
+
+// Ahora, definamos un flamante _dataset_ aurífero.
 var goldenData = [1, 6, 1, 8, 0, 3, 3, 9, 8, 8];
+
+// Además, de forma conveniente, podemos llamar al método 'forEach',
+// entregándole, como argumento, una función definida anteriormente.
 goldenData.forEach(addOne);

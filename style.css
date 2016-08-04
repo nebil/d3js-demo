@@ -1,3 +1,5 @@
+
+/* Algunas migajas de estilo. */
 body {
   margin: 0px auto;
   max-width: 800px;
@@ -6,6 +8,7 @@ body {
   font-family: 'Helvetica', 'Droid Sans', 'Arial', sans-serif;
 }
 
+/* Para tener mejores bordes. */
 rect {
   shape-rendering: crispEdges;
 }
