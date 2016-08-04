@@ -18,11 +18,20 @@ De preferencia, la última versión de Mozilla [Firefox] o de Google [Chrome].
 
 ## Contenido
 
-Nombre        | Descripción
-------------- | --------------------------
-`README.md`   | `this`.
-`index.html`  | Documento base del _demo_.
-`style.css`   | Hoja de estilos principal.
+Nombre         | Descripción
+-------------- | ---------------------------
+`README.md`    | `this`.
+`index.html`   | Documento base del _demo_.
+`style.css`    | Hoja de estilos principal.
+`snippet01.js` | Breve repaso de JavaScript.
+`snippet02.js` | Primeros pasos con [D3.js].
+`snippet03.js` | _Enter_, _update_, _exit_.
+`snippet04.js` | Escalas, colores.
+
+## Referencias
+
+- [_Thinking with joins_](https://bost.ocks.org/mike/join/) — Mike Bostock
+- [_Let’s make a bar chart_](https://bost.ocks.org/mike/bar/) — Mike Bostock
 
 [/]:# (Referencias implícitas)
 
