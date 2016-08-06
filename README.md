@@ -19,7 +19,7 @@ De preferencia, la última versión de Mozilla [Firefox] o de Google [Chrome].
 ## Contenido
 
 Nombre         | Descripción
--------------- | ---------------------------
+-------------- | ----------------------------
 `README.md`    | `this`.
 `index.html`   | Documento base del _demo_.
 `style.css`    | Hoja de estilos principal.
@@ -27,6 +27,8 @@ Nombre         | Descripción
 `snippet02.js` | Primeros pasos con [D3.js].
 `snippet03.js` | _Enter_, _update_, _exit_.
 `snippet04.js` | Escalas, colores.
+`snippet05.js` | [Ejemplo]: mapa de Santiago.
+`data/`        | Datos para el ejemplo final.
 
 ## Referencias
 
@@ -39,3 +41,4 @@ Nombre         | Descripción
 [atom]:    https://atom.io
 [chrome]:  https://www.google.com/chrome/
 [firefox]: https://www.mozilla.org/firefox/new/
+[ejemplo]: https://nkawasg.github.io/d3js-demo/

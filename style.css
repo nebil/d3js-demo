@@ -12,3 +12,16 @@ body {
 rect {
   shape-rendering: crispEdges;
 }
+
+/* Para el mapa: 'snippet05'. */
+path {
+  fill-opacity: 0.8;
+  stroke: #343;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+path:hover {
+  fill-opacity: 0.6;
+}
