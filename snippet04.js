@@ -1,3 +1,10 @@
+/*
+Copyright (c) 2016, Nebil Kawas García
+This source code is subject to the terms of the Mozilla Public License.
+You can obtain a copy of the MPL at <https://www.mozilla.org/MPL/2.0/>.
+
+snippet04.js -- Escalas, colores
+*/
 
 // Primero, definamos un nuevo _dataset_ extendido.
 // var dataset = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5,

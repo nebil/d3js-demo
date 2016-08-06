@@ -1,3 +1,10 @@
+/*
+Copyright (c) 2016, Nebil Kawas García
+This source code is subject to the terms of the Mozilla Public License.
+You can obtain a copy of the MPL at <https://www.mozilla.org/MPL/2.0/>.
+
+snippet01.js -- Introducción a JavaScript
+*/
 
 // Primero, probaremos si es que el código está siendo ejecutado.
 // Para conseguir esto, veamos si es que se imprime lo siguiente.

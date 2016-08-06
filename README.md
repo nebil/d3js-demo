@@ -35,6 +35,13 @@ Nombre         | Descripción
 - [_Thinking with joins_](https://bost.ocks.org/mike/join/) — Mike Bostock
 - [_Let’s make a bar chart_](https://bost.ocks.org/mike/bar/) — Mike Bostock
 
+## Licencias
+
+- El código de este repositorio está bajo el [Mozilla Public License v2.0](
+  https://www.mozilla.org/MPL/2.0/).
+- El documento `santiago.geojson` fue adaptado a partir del archivo
+  encontrado en [este repositorio](https://github.com/jlhonora/geo).
+
 [/]:# (Referencias implícitas)
 
 [d3.js]:   https://d3js.org

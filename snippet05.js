@@ -1,6 +1,10 @@
+/*
+Copyright (c) 2016, Nebil Kawas García
+This source code is subject to the terms of the Mozilla Public License.
+You can obtain a copy of the MPL at <https://www.mozilla.org/MPL/2.0/>.
 
-// Bonus: GeoJSON.
-// ======
+snippet05.js -- Ejemplo: mapa de Santiago
+*/
 
 // Intentaremos construir algo (un poco) más interesante que un _bar chart_.
 // Usaremos D3 para presentar información demográfica sobre nuestra capital.
