@@ -64,6 +64,7 @@ d3.json(FILEPATH, function(json) {
     // ya que no es posible representar —sin provocar alguna distorsión—
     // nuestro magnífico y esférico planeta Tierra      (tridimensional)
     // en la plana superficie de nuestro navegador.      (bidimensional)
+    // (Más información en: https://www.youtube.com/watch?v=kIID5FDi2JQ)
 
     // En este caso, usaremos la proyección de Gerardus Mercator.
     var projection = d3.geoMercator().scale(1).translate([0, 0]);
