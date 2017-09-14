@@ -1,6 +1,14 @@
 
 # d3js-demo
 
+> Este tutorial está escrito en [ES5],
+  para ofrecer un buen soporte a distintos navegadores.  
+  Sin embargo, en esta
+  [rama](https://github.com/nebil/d3js-demo/tree/es2015),
+  puedes estudiar los mismos ejemplos traducidos a [ES6].
+  :sparkles:  
+  D3 + ES6 = :revolving_hearts:
+
 ## Descripción
 
 Este repositorio almacenará los archivos del _demo_ sobre [D3.js]. :grinning:  
@@ -44,6 +52,8 @@ Nombre         | Descripción
 
 [/]:# (Referencias implícitas)
 
+[es5]:     https://www.ecma-international.org/ecma-262/5.1/
+[es6]:     https://www.ecma-international.org/ecma-262/6.0/
 [d3.js]:   https://d3js.org
 [atom]:    https://atom.io
 [chrome]:  https://www.google.com/chrome/
