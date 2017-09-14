@@ -1,6 +1,13 @@
 
 # d3js-demo
 
+> Esta rama contiene una nueva versión del _demo_,
+  con todos los _snippets_ traducidos hacia [ES6]. :sparkles:  
+  En el [_default branch_](https://github.com/nebil/d3js-demo),
+  puedes estudiar los ejemplos originales, publicados en [ES5].  
+  Sin embargo, la pregunta es… ¿por qué querrías hacer eso?
+  :thinking:
+
 ## Descripción
 
 Este repositorio almacenará los archivos del _demo_ sobre [D3.js]. :grinning:  
@@ -44,6 +51,8 @@ Nombre         | Descripción
 
 [/]:# (Referencias implícitas)
 
+[es5]:     https://www.ecma-international.org/ecma-262/5.1/
+[es6]:     https://www.ecma-international.org/ecma-262/6.0/
 [d3.js]:   https://d3js.org
 [atom]:    https://atom.io
 [chrome]:  https://www.google.com/chrome/
