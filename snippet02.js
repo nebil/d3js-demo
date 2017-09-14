@@ -16,9 +16,9 @@ snippet02.js -- Introducción a D3
 
 //                   -- JavaScript
 
-// var paragraphs = document.getElementsByTagName('p');
-// for (var i = 0; i < paragraphs.length; i++) {
-//     var paragraph = paragraphs.item(i);
+// const paragraphs = document.getElementsByTagName('p');
+// for (let i = 0; i < paragraphs.length; i++) {
+//     const paragraph = paragraphs.item(i);
 //     paragraph.style.setProperty('color', 'green');
 // }
 
@@ -38,15 +38,15 @@ snippet02.js -- Introducción a D3
 // • class    --> .selector
 // • etiqueta -->  etiqueta
 
-// var header = d3.select('#d3-header');             // Seleccionamos por 'id'.
+// const header = d3.select('#d3-header');           // Seleccionamos por 'id'.
 // header.style('color', 'blue');                    // Cambia el color a azul.
 // header.text("Mi versión de D3: v" + d3.version);  // Cambia el texto.
 
 // Sin embargo, en D3 usaremos el concepto de _method chaining_.
 // Esto nos permitirá simplificar la notación considerablemente.
-// var header = d3.select('#d3-header')
-//                .style('color', 'blue')
-//                .text("Mi versión de D3: v" + d3.version);
+// const header = d3.select('#d3-header')
+//                  .style('color', 'blue')
+//                  .text(`Mi versión de D3: v${d3.version}`);
 
 
 // === = ======== ====== ========
@@ -54,15 +54,15 @@ snippet02.js -- Introducción a D3
 // === = ======== ====== ========
 
 // Definamos el ancho y la altura del elemento SVG.
-// var WIDTH  = 800;
-// var HEIGHT = 500;
+// const WIDTH  = 800;
+// const HEIGHT = 500;
 
 // Definamos un nuevo contenedor, añadiendo una etiqueta <svg>.
 // Es importante inicializar ambas dimensiones: ancho y altura.
-// var container = d3.select('body')
-//                   .append('svg')                 // Añade elemento SVG,
-//                   .attr('width', WIDTH)          // le ajusta su ancho,
-//                   .attr('height', HEIGHT);       // y también su altura.
+// const container = d3.select('body')
+//                     .append('svg')               // Añade elemento SVG,
+//                     .attr('width', WIDTH)        // le ajusta su ancho,
+//                     .attr('height', HEIGHT);     // y también su altura.
 
 // Asociemos un nuevo rectángulo al contenedor.
 // SVG ofrece más figuras que sólo rectángulos:

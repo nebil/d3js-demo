@@ -7,18 +7,18 @@ snippet03.js -- Enter, update, exit
 */
 
 // Definamos un nuevo _dataset_: los dígitos de pi.
-// var dataset = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5];
+// const dataset = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5];
 
 // Definamos el ancho y la altura del elemento SVG.
-// var WIDTH  = 800;
-// var HEIGHT = 500;
+// const WIDTH  = 800;
+// const HEIGHT = 500;
 
 // Definamos un nuevo contenedor, añadiendo una etiqueta <svg>.
 // Es importante inicializar ambas dimensiones: ancho y altura.
-// var container = d3.select('body')
-//                   .append('svg')           // Añade elemento SVG,
-//                   .attr('width', WIDTH)    // le ajusta su ancho,
-//                   .attr('height', HEIGHT); // y también su altura.
+// const container = d3.select('body')
+//                     .append('svg')           // Añade elemento SVG,
+//                     .attr('width', WIDTH)    // le ajusta su ancho,
+//                     .attr('height', HEIGHT); // y también su altura.
 
 
 // ==============
@@ -37,9 +37,9 @@ snippet03.js -- Enter, update, exit
 //        .append('rect')       // Añade un <rect> por cada dato entrante.
 //          .attr('width', 20)
 //          .attr('height', 20)
-//         //  .attr('height', function(datum) { return datum * 30; })
+//         //  .attr('height', datum => datum * 30)
 //          .attr('x', 10)
-//         //  .attr('x', function(datum, index) { return index * 50; })
+//         //  .attr('x', (datum, index) => index * 50)
 //          .attr('y', 10)
 //          .attr('fill', 'maroon');
 
@@ -56,8 +56,8 @@ snippet03.js -- Enter, update, exit
 //          .enter()
 //        .append('rect')
 //          .attr('width', 20)
-//          .attr('height', function(datum) { return datum * 30; })
-//          .attr('x', function(datum, index) { return index * 50; })
+//          .attr('height', datum => datum * 30)
+//          .attr('x', (datum, index) => index * 50)
 //          .attr('y', 10)
 //          .attr('fill', 'olive');
 
@@ -83,7 +83,7 @@ snippet03.js -- Enter, update, exit
 // container.selectAll('rect')
 //          .data(dataset)
 //          .attr('width', 20)
-//          .attr('height', function(datum) { return datum * 30; })
-//          .attr('x', function(datum, index) { return index * 50; })
+//          .attr('height', datum => datum * 30)
+//          .attr('x', (datum, index) => index * 50)
 //          .attr('y', 10)
 //          .attr('fill', 'navy');

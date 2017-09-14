@@ -13,7 +13,7 @@ snippet01.js -- Introducción a JavaScript
 // console.log(d3.version);       // Luego, la versión de D3 utilizada.
 
 // Definamos una función.
-// function addOne(datum) {       // Ella recibe un número (i.e. 'datum')
+// const addOne = datum => {      // Ella recibe un número (i.e. 'datum')
 //     console.log(datum + 1);    // para imprimir su sucesor en consola.
 // }
 
@@ -26,24 +26,24 @@ snippet01.js -- Introducción a JavaScript
 // ============ =========
 
 // Definamos nuestro _dataset_ a partir de algunos pocos pokémones.
-// var pokedex = ["Bulbasaur", "Ivysaur", "Venasaur", "Charmander",
-//                "Charmeleon", "Charizard", "Squirtle",
-//                "Wartortle", "Blastoise", "Caterpie"];
+// const pokedex = ["Bulbasaur", "Ivysaur", "Venasaur", "Charmander",
+//                  "Charmeleon", "Charizard", "Squirtle",
+//                  "Wartortle", "Blastoise", "Caterpie"];
 // console.log(pokedex);
 
 // El método 'forEach' toma cada elemento definido en el arreglo
 // para, entonces, aplicarle la función entregada como argumento.
 
-// pokedex.forEach(function(name) {  // En este caso, definimos una función
-//     console.log(name);            // anónima (porque... no tiene nombre)
-// });                               // para imprimir cada elemento.
+// pokedex.forEach(name => {  // En este caso, definimos una función
+//     console.log(name);     // anónima (porque... no tiene nombre)
+// });                        // para imprimir cada elemento.
 
-// pokedex.forEach(function(name, index) {  // Asimismo, puede recibir como
-//     console.log(index, "-", name);       // segundo argumento, el índice
-// });                                      // de cada elemento.
+// pokedex.forEach((name, index) => {  // Asimismo, puede recibir como
+//     console.log(index, "-", name);  // segundo argumento, el índice
+// });                                 // de cada elemento.
 
 // Ahora, definamos un flamante _dataset_ aurífero.
-// var goldenData = [1, 6, 1, 8, 0, 3, 3, 9, 8, 8];
+// const goldenData = [1, 6, 1, 8, 0, 3, 3, 9, 8, 8];
 
 // Además, de forma conveniente, podemos llamar al método 'forEach',
 // entregándole, como argumento, una función definida anteriormente.
