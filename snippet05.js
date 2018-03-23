@@ -59,7 +59,7 @@ const getMapParameters = bounds => {
 };
 
 // Obtengamos los datos desde el archivo en formato JSON.
-d3.json(FILEPATH, json => {
+d3.json(FILEPATH).then(json => {
     // Antes de dibujar un mapa, debemos primero escoger una proyección,
     // ya que no es posible representar —sin provocar alguna distorsión—
     // nuestro magnífico y esférico planeta Tierra      (tridimensional)
