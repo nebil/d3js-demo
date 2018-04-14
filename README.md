@@ -18,6 +18,20 @@ mediante la construcción guiada de un sencillo
 —pero siempre fiel— [diagrama de barras](
 https://es.wikipedia.org/wiki/Diagrama_de_barras).
 
+## Contenido
+
+Nombre         | Descripción
+-------------- | ----------------------------
+`README.md`    | `this`.
+`index.html`   | Documento base del _demo_.
+`style.css`    | Hoja de estilos principal.
+`snippet01.js` | Breve repaso de JavaScript.
+`snippet02.js` | Primeros pasos con [D3.js].
+`snippet03.js` | _Enter_, _update_, _exit_.
+`snippet04.js` | Escalas, colores.
+`snippet05.js` | [Ejemplo]: mapa de Santiago.
+`data/`        | Datos para el ejemplo final.
+
 ## Requisitos
 
 Es recomendable que los participantes de este _demo_ lleven sus computadores  
@@ -55,20 +69,6 @@ De hecho, sólo nos bastará con seguir dos pasos.
 2. :fox_face:
    Abre tu [navegador favorito](https://www.mozilla.org/firefox/new/)
    y ve hacia http://localhost:8000.
-
-## Contenido
-
-Nombre         | Descripción
--------------- | ----------------------------
-`README.md`    | `this`.
-`index.html`   | Documento base del _demo_.
-`style.css`    | Hoja de estilos principal.
-`snippet01.js` | Breve repaso de JavaScript.
-`snippet02.js` | Primeros pasos con [D3.js].
-`snippet03.js` | _Enter_, _update_, _exit_.
-`snippet04.js` | Escalas, colores.
-`snippet05.js` | [Ejemplo]: mapa de Santiago.
-`data/`        | Datos para el ejemplo final.
 
 ## Referencias
 
