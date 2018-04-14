@@ -69,6 +69,44 @@ De hecho, sólo nos bastará con seguir dos pasos.
    Abre tu [navegador favorito](https://www.mozilla.org/firefox/new/)
    y ve hacia http://localhost:8000.
 
+### Alternativas a Python
+
+Pero espera, sinceramente, ¿por qué querrías una alternativa a Python? :fearful:  
+Porque, si no lo tienes instalado en tu computador, puedes bajarlo desde [aquí](
+https://www.python.org/downloads/).
+
+De acuerdo. No seguiré insistiendo.
+Si realmente prefieres utilizar algo distinto de Python,  
+veamos, entonces, cómo lograr esto con dos herramientas:
+con [Ruby] y también con [Node.js].
+
+#### Ruby 2.3+
+
+De manera similar a Python, sólo necesitarás escribir una breve línea de código.
+
+```sh
+$ ruby -r 'un' -e 'httpd' [-- --port <port>] # por defecto, abre el puerto 8080.
+```
+
+Y si no tienes tiempo para escribir tanto, acá te dejaré una opción más concisa.
+
+```sh
+$ ruby -run -ehttpd [-- -p<port>]
+```
+
+#### Node.js
+
+No es sencillo lanzar un servidor web en Node.js,
+sin utilizar alguna librería _third-party_.  
+Por ejemplo, una de ellas es [http-server](
+https://www.npmjs.com/package/http-server);
+sin embargo, deberás escribir dos comandos.
+
+```sh
+$ npm install -g http-server # ojo: esto instalará 'http-server' de forma global.
+$ http-server [-p <port>]    # por defecto, abre el puerto 8080.
+```
+
 ## Referencias
 
 - [_Thinking with joins_](https://bost.ocks.org/mike/join/) — Mike Bostock
@@ -90,4 +128,6 @@ De hecho, sólo nos bastará con seguir dos pasos.
 [chrome]:  https://www.google.com/chrome/
 [firefox]: https://www.mozilla.org/firefox/new/
 [python]:  http://www.pyzo.org/_images/xkcd_python.png
+[ruby]:    https://www.ruby-lang.org
+[node.js]: https://nodejs.org
 [ejemplo]: https://nebil.github.io/d3js-demo/
