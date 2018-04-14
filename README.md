@@ -24,6 +24,38 @@ Es recomendable que los participantes de este _demo_ lleven sus computadores
 con un _full-featured_ editor de texto —como [Atom]— y un navegador moderno.  
 De preferencia, la última versión de Mozilla [Firefox] o de Google [Chrome].
 
+## Lanzar un _web server_
+
+Para trabajar con el [ejemplo] del mapa de forma local,
+es posible que necesites un servidor web _ad hoc_.  
+Por motivos de seguridad,
+algunos navegadores (_e.g._ Chrome) no cargarán ciertos archivos locales.  
+Y por lo tanto, en este contexto, el navegador no querrá abrir los datos
+ubicados en [este archivo](data/santiago.geojson).  
+Luego, la idea es invocar un sencillo _web server_
+que sea capaz de servir archivos locales vía HTTP.
+
+### ¿Cómo?
+
+Nos podemos servir de las “baterías incluidas” de Python 3
+(usualmente conocido como [Python])  
+que tienen lo suficiente para crear un servidor.
+De hecho, sólo nos bastará con seguir dos pasos.
+:relieved:
+
+1. :snake:
+   Ejecuta este elegante _one-liner_.
+
+   ```sh
+   $ python3 -m http.server [port]
+   ```
+   **Nota:** el parámetro `port` permite especificar un puerto alternativo
+   (por defecto, abrirá el 8000).
+
+2. :fox_face:
+   Abre tu [navegador favorito](https://www.mozilla.org/firefox/new/)
+   y ve hacia http://localhost:8000.
+
 ## Contenido
 
 Nombre         | Descripción
@@ -58,4 +90,5 @@ Nombre         | Descripción
 [atom]:    https://atom.io
 [chrome]:  https://www.google.com/chrome/
 [firefox]: https://www.mozilla.org/firefox/new/
+[python]:  http://www.pyzo.org/_images/xkcd_python.png
 [ejemplo]: https://nebil.github.io/d3js-demo/
